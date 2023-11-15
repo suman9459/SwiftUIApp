@@ -10,9 +10,6 @@ import SwiftUI
 struct UserView: View {
     @ObservedObject var viewModel: UserViewModel
     
-    @State private var title = "Hello"
-    @State private var textFieldValue = ""
-    
     var body: some View {
         NavigationView {
             VStack(alignment: .center, spacing: 20.0) {
